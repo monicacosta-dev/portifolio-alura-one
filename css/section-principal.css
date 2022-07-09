@@ -1,0 +1,108 @@
+/*Estilização de toda parte das sessoes envolvendo o titulo/menus/foto e links de rede sociais*/
+
+div.section-menu {
+    background-color: var(--cor-fundo);
+}
+
+section.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    height: 16vh;
+    margin: 0 40px;
+}
+
+
+/*-- Trabalhando com  nome e icones*/
+
+section header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 800;
+    color: var(--cor-de-hobbi);
+}
+
+header img {
+    margin: 0 16px;
+}
+
+header:hover {
+    color: var(--cor-de-hobbi);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor-sobre-mim);
+    transition: 0.7s;
+}
+
+a:hover {
+    color: var(--cor-de-hobbi);
+}
+
+
+/*links de redes sociais*/
+
+nav ul.menu-list {
+    display: flex;
+    justify-content: space-around;
+    width: 750px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/* -- Trabalhando Sessão Titulos -- */
+
+section.title {
+    margin: 52px 0px;
+    line-height: 70px;
+}
+
+
+/* -- Trabalhando o tamanho do conteiner -- */
+
+div.title-container {
+    width: 800px;
+    padding: 18px 70px;
+}
+
+
+/* -- Trabalhando Titulo principal -- */
+
+section.title div.title-div div.title-container h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    color: var(--cor-sobre-mim);
+}
+
+section.title div.title-div div.title-container h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+
+/* -- Trabalhando organização de sessão de titulo -- */
+
+div.title-div {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+section.title img.title-profile {
+    width: 290px;
+}
+
+section.title div.title-div div.title-container ul.title-network {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}

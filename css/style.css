@@ -1,0 +1,81 @@
+:root {
+    /*Insira a variavel das outras cores inspecionando o modelo do figma*/
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    --cor-de-fundo: #ffff;
+    --cor-de-link: #fea304;
+    --cor-skill-form: #eaf2fd;
+    --cor-de-hobbi: #4d998f;
+    --cor-de-menu: #e4e4e4;
+    --cor-caixa: #e6f6f5;
+    --cor-botoes: #005100;
+    --cor-sobre-mim: #33372f;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+div.all {
+    background-color: var(--cor-de-fundo);
+}
+
+
+/*trabalhando  Footer/Rodapé*/
+
+section.footer div.footer-rodape {
+    background: var(--cor-sobre-mim);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--cor-de-fundo);
+    font-size: 1em;
+    padding-top: 10px;
+}
+
+
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+
+/*Tablet*/
+
+@media (min-width: 768px) {
+    /* Menu */
+    /*title*/
+    /*Skills*/
+    /*Hobbies*/
+    /*Experiências acadêmicas*/
+    /*Expeirência profissional*/
+}
+
+
+/*Mobile*/
+
+@media (min-width: 425px) {
+    /*Menu*/
+    /*Titulo*/
+    /*Sessão sobre*/
+    /*Skills*/
+    /*Hobbies*/
+    /*Formação Acadêmica*/
+    /*Experiência Profissional*/
+    /*Contato*/
+    /*Footer*/
+}

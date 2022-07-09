@@ -1,0 +1,84 @@
+/* Traballhando Projetos  - Desafio 01 */
+
+section.experience {
+    padding: 18px 60px;
+    margin: 0px;
+    background: #fffafa;
+}
+
+section.experience h2.experience__section__title {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    margin: 10px 0 10px 0px;
+    color: var(--cor-sobre-mim);
+}
+
+h2.experience__section__title {
+    color: var(--cor-de-link);
+}
+
+section.experience div.experience__info div.experience__text {
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: right;
+    font-size: 2em;
+    padding: 40px 0px 0px 90px;
+    color: var(--cor-sobre-mim);
+}
+
+h2.experience__title {
+    color: var(--cor-sobre-mim);
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+h3.experience__text {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0 30px;
+    color: #0a366d;
+}
+
+section.experience div#experiencia-box-primeiro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 160px;
+}
+
+section.experience div#experiencia-box-primeiro img.experience__img {
+    width: 55%;
+    border: 2px solid var(--cor-sobre-mim);
+    margin: 0px 80px 0px 0px;
+}
+
+button.experiencia__botao--repo {
+    background-color: #005100;
+    border: 3px solid var(--cor-sobre-mim);
+    border-radius: 5px;
+    font-weight: 800;
+    color: var(--cor-de-fundo);
+    padding: 10px 30px;
+}
+
+button.experiencia__botao--demo {
+    background-color: #005100;
+    border: 3px solid var(--cor-sobre-mim);
+    border-radius: 5px;
+    font-weight: 800;
+    color: var(--cor-de-fundo);
+    padding: 10px 30px;
+    margin: 10px 0px 20px 10px;
+}
+
+button.experiencia__botao--demo:hover,
+button.experiencia__botao--repo:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    border: 1px solid #4d998f;
+    background-color: #4d998f;
+}

@@ -1,0 +1,58 @@
+/* Traballhando Projetos parte II */
+
+section.experience h2.experience__section__title div#experiencia-box-segundo {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    margin: 0px 0px 80px 0px;
+}
+
+div#experiencia-box-segundo h2.experience__title {
+    color: var(--cor-de-link);
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: var(--cor-sobre-mim);
+}
+
+div#experiencia-box-segundo h3.experience__text {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #0a366d;
+}
+
+section.experience div.experiencie__box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+section.experience div#experiencia-box-segundo img.experience__img {
+    order: 1;
+    margin: 0px 5px 3px 4px;
+    border: 2px solid var(--cor-sobre-mim);
+    width: 50%;
+}
+
+div#experiencia-box-segundo button.experiencia__botao--demo,
+div#experiencia-box-segundo button.experiencia__botao--repo {
+    background-color: #005100;
+    border: 2px solid var(--cor-sobre-mim);
+    border-radius: 3px;
+    font-weight: 800;
+    color: var(--cor-de-fundo);
+    padding: 5px 12px 5px 9px;
+    margin: 10px 10px;
+}
+
+div#experiencia-box-segundo button.experiencia__botao--demo:hover,
+div#experiencia-box-segundo button.experiencia__botao--repo:hover {
+    transform: scale(1.1);
+    transition: all 0.7s;
+    border: 1px solid var(--cor-de-hobbi);
+    background-color: var(--cor-de-hobbi);
+}

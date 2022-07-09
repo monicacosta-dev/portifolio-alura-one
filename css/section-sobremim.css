@@ -1,0 +1,30 @@
+/*Tamanho do container para que o usuario leia, mas pode nao ser usado*/
+
+
+/* -- Estilizando sobre mim -- */
+
+section.about div.about-container {
+    width: 760px;
+}
+
+section.about {
+    padding: 18px 60px;
+    background: var(--cor-sobre-mim);
+}
+
+section.about h3.about-title {
+    font-weight: 700;
+    line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 0px 10px 0px;
+    font-size: 1em;
+    color: var(--cor-de-fundo);
+}
+
+section.about div.about-container p {
+    font-weight: 400;
+    line-height: 22px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-de-fundo);
+}
