@@ -9,7 +9,7 @@ Deve ter um menu de navegação;
 Deve ter uma imagem que servirá de banner;
 Deve conter uma seção "sobre mim":
 
-Deve ter uma foto de perfil;
+ ### Deve ter uma foto de perfil;
 Deve incluir um link para as suas redes sociais;
 Deve conter estes dados pessoais:
 1) Nome;
@@ -36,3 +36,7 @@ Importante:Todas as imagens estarão disponíveis no Figma para fazer download.
 Extras:
 - A página deve conter um botão que permita visualizar, em uma nova aba, uma versão em PDF do seu currículo.
 
+Projeto Page:
+
+ -- https://monicacosta-dev.github.io/portifolio-alura-one/
+ -- Parte Reponsivo sendo trabalhado 
